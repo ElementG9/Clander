@@ -7,11 +7,13 @@
 //  College Board sucks
 
 import UIKit
-
-class SecondViewController: UIViewController {
-
+import WebKit
+class SecondViewController: UIViewController, WKNavigationDelegate {
+    var webView: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        let url = URL(string: "https://khimno.com")!
+        webView.load(URLRequest(url: url))
         // Do any additional setup after loading the view.
     }
 

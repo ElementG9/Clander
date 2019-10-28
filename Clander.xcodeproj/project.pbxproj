@@ -103,10 +103,10 @@
 			children = (
 				64C8702A236743F600326D92 /* AppDelegate.swift */,
 				64C8702C236743F600326D92 /* SceneDelegate.swift */,
+				64C87035236743F900326D92 /* Assets.xcassets */,
 				64C8702E236743F600326D92 /* FirstViewController.swift */,
 				64C87030236743F600326D92 /* SecondViewController.swift */,
 				64C87032236743F600326D92 /* Main.storyboard */,
-				64C87035236743F900326D92 /* Assets.xcassets */,
 				64C87037236743F900326D92 /* LaunchScreen.storyboard */,
 				64C8703A236743F900326D92 /* Info.plist */,
 			);
