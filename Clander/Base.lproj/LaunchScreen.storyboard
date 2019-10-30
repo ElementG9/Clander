@@ -15,23 +15,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clander" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="58" translatesAutoresizingMaskIntoConstraints="NO" id="h4j-aW-hYe">
-                                <rect key="frame" x="344.5" y="518.5" width="121.5" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clander" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3t-03-Y6M">
+                                <rect key="frame" x="344" y="497" width="122" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Garen Tyler (github.com/ElementG9)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="350" translatesAutoresizingMaskIntoConstraints="NO" id="lXV-Df-GaM">
-                                <rect key="frame" x="230" y="569.5" width="350" height="26.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="350" id="80R-KX-d2V"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Garen Tyler (github.com/ElementG9)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pjp-tC-SKC">
+                                <rect key="frame" x="231" y="548" width="348.5" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Danton Hou (github.com/khimno)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="318" translatesAutoresizingMaskIntoConstraints="NO" id="A3w-do-aFy">
-                                <rect key="frame" x="246" y="604" width="318" height="26.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Danton Hou (github.com/khimno)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygX-Bl-4az">
+                                <rect key="frame" x="246" y="582.5" width="318" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -39,12 +36,12 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="lXV-Df-GaM" firstAttribute="top" secondItem="h4j-aW-hYe" secondAttribute="bottom" constant="8" id="JMT-Xd-3sV"/>
-                            <constraint firstItem="lXV-Df-GaM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="PlG-Rh-E5Y"/>
-                            <constraint firstItem="A3w-do-aFy" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="PoP-Yz-I0D"/>
-                            <constraint firstItem="A3w-do-aFy" firstAttribute="top" secondItem="lXV-Df-GaM" secondAttribute="bottom" constant="8" id="Wtm-ge-jXN"/>
-                            <constraint firstItem="h4j-aW-hYe" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kVv-MD-z9V"/>
-                            <constraint firstItem="h4j-aW-hYe" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="y0j-zt-y5L"/>
+                            <constraint firstItem="Pjp-tC-SKC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="FY5-Sr-cfC"/>
+                            <constraint firstItem="Pjp-tC-SKC" firstAttribute="top" secondItem="C3t-03-Y6M" secondAttribute="bottom" constant="8" id="K6x-AI-4zy"/>
+                            <constraint firstItem="ygX-Bl-4az" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Sbe-Ec-59B"/>
+                            <constraint firstItem="C3t-03-Y6M" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="WE5-9E-0Gh"/>
+                            <constraint firstItem="ygX-Bl-4az" firstAttribute="top" secondItem="Pjp-tC-SKC" secondAttribute="bottom" constant="8" id="qCL-8q-fp7"/>
+                            <constraint firstItem="C3t-03-Y6M" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xUa-eu-qYL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
